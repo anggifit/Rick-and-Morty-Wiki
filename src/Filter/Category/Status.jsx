@@ -2,7 +2,7 @@ import React from "react";
 import FilterBTN from "../FilterBTN";
 
 const Status = ({setStatus,setPageNumber}) => {
-    let specieStatus = ["Alive", "Dead", "Unknown"]
+    const specieStatus = ["Alive", "Dead", "Unknown"]
 
     return (
         <div className="accordion-item">

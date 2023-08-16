@@ -5,7 +5,7 @@ import Gender from "./Category/Gender";
 
 const Filter = ({status, pageNumber, setGender, setSpecie, setStatus, setPageNumber}) => {
 
-    let handlerClickClear = () => {
+    const handlerClickClear = () => {
         setGender("")
         setSpecie("")
         setStatus("")

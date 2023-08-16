@@ -1,13 +1,19 @@
 a {
-    color: white; text-decoration: none;
+    color: #FFFFFF; 
+    text-decoration: none;
 }
   
 @media (max-width: 768px) {
-    .pagination {font-size: 12px}
-
+    .pagination {
+        font-size: 12px
+    }
     .next,
-    .prev {display: none}
+    .prev {
+        display: none
+    }
 }
 @media (max-width: 768px) {
-    .pagination {font-size: 14px}
+    .pagination {
+        font-size: 14px
+    }
 }
