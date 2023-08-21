@@ -21,7 +21,7 @@ const Navbar = () => {
               className="navbar-toggler border-0" 
               type="button" 
               data-bs-toggle="collapse" 
-              data-bs-target="##navbarNavAltMarkup" 
+              data-bs-target="#navbarNavAltMarkup" 
               aria-controls="navbarNavAltMarkup" 
               aria-expanded="false" 
               aria-label="Toggle navigation"
