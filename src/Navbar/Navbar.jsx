@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
+import './Navbar.css'
 import '../App.css'
+
 
 const Navbar = () => {
   return (
@@ -9,14 +11,7 @@ const Navbar = () => {
           <Link to="/" className="fs-3 ubuntu navbar-brand">
               Rick & Morty <span className="text-primary">Wiki</span>
           </Link>
-                  <style jsx>{`
-                button[aria-expanded="false"] > .close {
-                  display: none;
-                }
-                button[aria-expanded="true"] > .open {
-                  display: none;
-                }
-              `}</style>
+                  
           <button 
               className="navbar-toggler border-0" 
               type="button" 
@@ -36,7 +31,7 @@ const Navbar = () => {
                   
                   <NavLink to="/episodes" className="nav-link">Episodes</NavLink>
                   
-                  <NavLink activeClassName="active" to="/location" className="nav-link">Location</NavLink>
+                  <NavLink to="/location" activeClassName="active" className="nav-link">Location</NavLink>
               </div>
           </div>
       </div>
